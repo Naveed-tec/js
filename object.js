@@ -53,3 +53,12 @@ newUser.email = "naveedzulfiqar100@gmail.com"
 console.log(Object.keys(newUser))
 console.log(Object.values(newUser))
 console.log(Object.entries(newUser))
+
+                                // de-structuring objetcs
+const course = {
+    name: "Naveed",
+    price: "999",
+    isFree: false
+}
+const {name} = course
+console.log(name)
